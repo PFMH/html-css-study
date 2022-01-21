@@ -26,6 +26,7 @@
     background-size: 457px 434px;
     margin: 0 auto;
     vertical-align: top;
+
 }
 
 a{
@@ -40,6 +41,7 @@ a{
     display: inline-block;
     border: 2px solid #19ce60; /* hex */
     vertical-align: top;
+    position: relative;
 }
 
 #header-search fieldset input{
@@ -53,6 +55,7 @@ a{
     line-height: 50px;
     font-size: 18px;
     vertical-align: top;
+    
 }
 
 #header-search fieldset button{
@@ -63,6 +66,9 @@ a{
     vertical-align: top;
     cursor: pointer;
     padding: 0;
+    position: absolute;
+    right: -2px;
+    top: -2px;
 }
 
 #header-search fieldset button .but-ico{
