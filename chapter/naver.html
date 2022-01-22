@@ -10,57 +10,62 @@
 </head>
 <body>
     <header>
-        <div id="header-center"> <!--가운데 정렬용 div-->
+        <div class="line-center"> <!--가운데 정렬용 div-->
             <!-- 속성명: 속성값; 속성명2: 속성값2;-->
             <!--인라인 스타일;-->
-            <div>
-                <span>네이버를 시작페이지로</span>
-                <span>쥬니어네이버</span>
-                <span>해피빈</span>
-            </div>
-            <div id="header-search">
-                <a href="https://www.naver.com">
-                    <h1>
-                        <span class="blind">네이버</span>
-                    </h1>
-                </a>
-                    <!--주석(comment)입니다.-->
-                    <!--속성(attribute)입니다.-->
-                <h2 class="blind">검색창</h2>
-                <fieldset>
-                    <legend class="blind">검색</legend>
-                    <input />
-                    <button>
-                        <span class="blind">검색</span>
-                        <span class="but-ico"></span>
-                    </button>
-                </fieldset>
+            <div class="header-size">
+                <div>
+                    <span><a href="https://developer.mozilla.org/ko/docs/Web/CSS/Containing_block">mdn바로가기</a></span>
+                    <span>네이버를 시작페이지로</span>
+                    <span>쥬니어네이버</span>
+                    <span>해피빈</span>
+                </div>
+                <div id="header-search">
+                    <a href="https://www.naver.com">
+                        <h1>
+                            <span class="blind">네이버</span>
+                        </h1>
+                    </a>
+                        <!--주석(comment)입니다.-->
+                        <!--속성(attribute)입니다.-->
+                    <h2 class="blind">검색창</h2>
+                    <fieldset>
+                        <legend class="blind">검색</legend>
+                        <input />
+                        <button>
+                            <span class="blind">검색</span>
+                            <span class="but-ico"></span>
+                        </button>
+                    </fieldset>
+                </div>
             </div>
         </div>
+        <nav>
+            <div class="line-center">
+                <ul>
+                    <li class="firstnav"><a href="https://mail.naver.com/"><span></span><span class="blind">메일</span></a></li>
+                    <li><a href="https://section.cafe.naver.com/"><span></span><span class="blind">카페</span></a></li>
+                    <li><a href="https://section.blog.naver.com/"><span></span><span class="blind">블로그</span></a></li>
+                    <li><a href="https://kin.naver.com/"><span></span><span class="blind">지식in</span></a></li>
+                    <li><a href="https://shopping.naver.com/"><span></span><span class="blind">쇼핑</span></a></li>
+                    <li><a href="https://shoppinglive.naver.com/home"><span></span><span class="blind">쇼핑live</span></a></li>
+                    <li><a href="https://order.pay.naver.com/home"><span></span><span class="blind">pay</span></a></li>
+                    <li><a href="https://tv.naver.com/"><span></span><span class="blind">tv</span></a></li>
+                </ul>
+                <ul>
+                    <li class="secondnav"><a href="https://dict.naver.com/"><span></span><span class="blind">사전</span></a></li>
+                    <li><a href="https://news.naver.com/"><span></span><span class="blind">뉴스</span></a></li>
+                    <li><a href="https://finance.naver.com/"><span></span><span class="blind">증권</span></a></li>
+                    <li><a href="https://land.naver.com/"><span></span><span class="blind">부동산</span></a></li>
+                    <li><a href="https://map.naver.com/"><span></span><span class="blind">지도</span></a></li>
+                    <li><a href="https://vibe.naver.com/"><span></span><span class="blind">vibe</span></a></li>
+                    <li><a href="https://book.naver.com/"><span></span><span class="blind">책</span></a></li>
+                    <li><a href="https://comic.naver.com/"><span></span><span class="blind">웹툰</span></a></li>
+                </ul>
+                <h2>실시간 검색어</h2>
+            </div>
+        </nav>
     </header>
-    <nav>   
-        <ul> <!--unorderd list-->
-            <li>메일</li> <!--list item-->
-            <li>카페</li> <!--list item-->
-            <li>블로그</li> <!--list item-->
-            <li>지식인</li> <!--list item-->
-            <li>쇼핑</li> <!--list item-->
-            <li>쇼핑LIVE</li> <!--list item-->
-            <li>Pay</li> <!--list item-->
-            <li>TV</li> <!--list item-->
-        </ul>
-        <ul>
-            <li>사전</li>
-            <li>뉴스</li>
-            <li>증권</li>
-            <li>부동산</li>
-            <li>지도</li>
-            <li>VIBE</li>
-            <li>책</li>
-            <li>웹툰</li>
-        </ul>
-        <h2>실시간 검색어</h2>
-    </nav>
     <main>
         <div>
             <img src="source/광고배너.jpg" alt="광고배너" />
