@@ -15,6 +15,10 @@ a{
     list-style: none;
 }
 
+nav, main{
+    border-top: solid 1px #e4e8eb;
+}
+
 #line-center{
     margin: 0 auto;
     width: 1130px;
@@ -132,4 +136,13 @@ nav h2{
     height: 21px;
     background: url(../source/logo.png) -420px -73px no-repeat;
     background-size: 457px 434px;
+}
+
+#mainmenu{
+    padding: 20px;
+}
+
+.banner_img img{
+    width: 750px;
+    height: 135px;
 }
