@@ -13,6 +13,7 @@ ul, li{
 a{
     text-decoration: none;
     list-style: none;
+    color: #000000;
 }
 
 nav, main{
@@ -88,7 +89,7 @@ nav, main{
     width: 22px;
     height: 22px;
     background: url(../source/logo.png) -420px 0 no-repeat;
-    background-size: 457px 434px;
+    background-size: 457px 434px;  
 }
 
 #headermenu{
@@ -97,6 +98,7 @@ nav, main{
 }
 
 #navmenu{
+    position: relative;
     width: 1350px;
     height: 52px;
     padding: 10px 0;
@@ -110,6 +112,10 @@ nav, main{
     line-height: 30px;
 }
 
+.firstnav a{
+    color:  #19ce60;
+}
+
 .secondnav{
     float: left;
     font-size: 15px;
@@ -117,13 +123,21 @@ nav, main{
     line-height: 30px;
 }
 
+.weathermenu{
+    position: absolute;
+    right: 30px;
+    width: 270px;
+    height: 53px;
+    top: 0;
+}
+
+.weathermenu a{
+    line-height: 53px;
+}
+
 nav ul li{
     float: left;
     padding-left: 10px;
-}
-
-nav a{
-    color: #19ce60;
 }
 
 nav h2{
@@ -136,6 +150,7 @@ nav h2{
     height: 21px;
     background: url(../source/logo.png) -420px -73px no-repeat;
     background-size: 457px 434px;
+    vertical-align: middle;
 }
 
 #mainmenu{
@@ -145,4 +160,8 @@ nav h2{
 .banner_img img{
     width: 750px;
     height: 135px;
+}
+
+.firstmain{
+    display: inline-block;
 }
