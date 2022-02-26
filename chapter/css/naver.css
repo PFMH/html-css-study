@@ -1,7 +1,8 @@
 /* cascading style sheet*/
 /* 선택자(selector)*/
-html, body{
+*{
     margin: 0 auto;
+    padding: 0;
 }
 
 ul, li{
@@ -14,6 +15,10 @@ a{
     text-decoration: none;
     list-style: none;
     color: #000000;
+}
+
+main{
+    padding: 20px 30px;
 }
 
 nav, main{
@@ -153,15 +158,32 @@ nav h2{
     vertical-align: middle;
 }
 
-#mainmenu{
-    padding: 20px;
-}
-
 .banner_img img{
     width: 750px;
     height: 135px;
 }
 
-.firstmain{
-    display: inline-block;
+
+#mainmenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightmenu{
+    position: relative;
+    width: 350px;
+}
+
+.login-menu{
+    height: 135px;
+    border: 1px solid #dae1e6;
+    text-indent: 10px;
+}
+
+.naver-login{
+    margin: 5px 25px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #19ce60;
+    text-align: center;
 }
