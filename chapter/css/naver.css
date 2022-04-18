@@ -1,42 +1,14 @@
 /* cascading style sheet*/
 /* 선택자(selector)*/
-*{
-    margin: 0 auto;
-    padding: 0;
+#headermenu .head-link {
+    display: flex;
+    justify-content: end;
+    padding-top: 16px;
+    font-size: 12px;
 }
 
-ul, li{
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-    list-style: none;
-    color: #000000;
-}
-
-main{
-    padding: 20px 30px;
-}
-
-nav, main{
-    border-top: solid 1px #e4e8eb;
-}
-
-#line-center{
-    margin: 0 auto;
-    width: 1130px;
-}
-
-.blind{
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
+#header-search {
+    padding-top: 40px;
 }
 
 #header-search h1{
