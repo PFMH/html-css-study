@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" type="image/x-icon" href="source/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/chapter/source/favicon.ico" />
     <link rel="stylesheet" href="css/naver.css" />
+    <link rel="stylesheet" href="css/reset.css" />
     <title>NAVER</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
             <!-- 속성명: 속성값; 속성명2: 속성값2;-->
             <!--인라인 스타일;-->
             <div id="headermenu">
-                <div>
+                <div class="head-link">
                     <span><a href="https://developer.mozilla.org/ko/docs/Web/CSS/Containing_block">mdn바로가기</a></span>
                     <span>네이버를 시작페이지로</span>
                     <span>쥬니어네이버</span>
@@ -40,122 +41,122 @@
                 </div>
             </div>
         </div>
-        <nav>
-            <div id="line-center">
-                <div id="navmenu">
-                    <ul class="firstnav">
-                        <li>
-                            <a href="https://mail.naver.com/">
-                                <span class="nav-ico"></span>
-                                <span class="blind">메일</span>
-                                메일
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://section.cafe.naver.com/">
-                                <span class="blind">카페</span>
-                                카페
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://section.blog.naver.com/">
-                                <span class="blind">블로그</span>
-                                블로그
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://kin.naver.com/">
-                                <span class="blind">지식in</span>
-                                지식IN
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://shopping.naver.com/">
-                                <span class="blind">쇼핑</span>
-                                쇼핑
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://shoppinglive.naver.com/home">
-                                <span class="blind">쇼핑live</span>
-                                쇼핑LIVE
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://order.pay.naver.com/home">
-                                <span class="blind">pay</span>
-                                PAY
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://tv.naver.com/">
-                                <span class="blind">tv</span>
-                                TV
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="secondnav">
-                        <li>
-                            <a href="https://dict.naver.com/">
-                                <span class="blind">사전</span>
-                                사전
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://news.naver.com/">
-                                <span class="blind">뉴스</span>
-                                뉴스
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://finance.naver.com/">
-                                <span class="blind">증권</span>
-                                증권
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://land.naver.com/">
-                                <span class="blind">부동산</span>
-                                부동산
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://map.naver.com/">
-                                <span class="blind">지도</span>
-                                지도
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://vibe.naver.com/">
-                                <span class="blind">vibe</span>
-                                VIBE
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://book.naver.com/">
-                                <span class="blind">책</span>
-                                책
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://comic.naver.com/">
-                                <span class="blind">웹툰</span>
-                                웹툰
-                            </a>
-                        </li>
-                    </ul>
-                    <a href="" style="color: #202020; font-size: 12px; margin-left: 20px; vertical-align: middle;">
-                        <span class="blind">더보기</span>
-                        더보기
-                    </a>
-                    <div class="weathermenu">
-                        <a href="">날씨</a>
-                        <span class="blind">날씨</span>
-                    </div>
+    </header>
+    <nav>
+        <div id="line-center">
+            <div id="navmenu">
+                <ul class="firstnav">
+                    <li>
+                        <a href="https://mail.naver.com/">
+                            <span class="nav-ico"></span>
+                            <span class="blind">메일</span>
+                            메일
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://section.cafe.naver.com/">
+                            <span class="blind">카페</span>
+                            카페
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://section.blog.naver.com/">
+                            <span class="blind">블로그</span>
+                            블로그
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://kin.naver.com/">
+                            <span class="blind">지식in</span>
+                            지식IN
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://shopping.naver.com/">
+                            <span class="blind">쇼핑</span>
+                            쇼핑
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://shoppinglive.naver.com/home">
+                            <span class="blind">쇼핑live</span>
+                            쇼핑LIVE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://order.pay.naver.com/home">
+                            <span class="blind">pay</span>
+                            PAY
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tv.naver.com/">
+                            <span class="blind">tv</span>
+                            TV
+                        </a>
+                    </li>
+                </ul>
+                <ul class="secondnav">
+                    <li>
+                        <a href="https://dict.naver.com/">
+                            <span class="blind">사전</span>
+                            사전
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://news.naver.com/">
+                            <span class="blind">뉴스</span>
+                            뉴스
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://finance.naver.com/">
+                            <span class="blind">증권</span>
+                            증권
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://land.naver.com/">
+                            <span class="blind">부동산</span>
+                            부동산
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://map.naver.com/">
+                            <span class="blind">지도</span>
+                            지도
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://vibe.naver.com/">
+                            <span class="blind">vibe</span>
+                            VIBE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://book.naver.com/">
+                            <span class="blind">책</span>
+                            책
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://comic.naver.com/">
+                            <span class="blind">웹툰</span>
+                            웹툰
+                        </a>
+                    </li>
+                </ul>
+                <a href="" style="color: #202020; font-size: 12px; margin-left: 20px; vertical-align: middle;">
+                    <span class="blind">더보기</span>
+                    더보기
+                </a>
+                <div class="weathermenu">
+                    <a href="">날씨</a>
+                    <span class="blind">날씨</span>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <main>
         <div id="line-center">
             <div id="mainmenu">
